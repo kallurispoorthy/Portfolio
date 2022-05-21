@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+   
+    {% block projectsactive %}active{% endblock projectsactive %}
+    
+    {% block title %}projects{% endblock title %}
+    {% block body %}
+      <div class="container my-3">
+        <h2 class="text-center my-3 py-3">My Projects</h2>
+        <div class="row ">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d07c1db617a36898b5e8c71013d228d11003eb36d7150b7abfe988fe097c7d66.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tic-Tac-toe</h5>
+                        <p class="card-text">It is a game in which two players alternatively put ‘X’ and ‘O’ in compartments of a figure formed by two vertical lines crossing two horizontal lines and each tries to get a row of three ‘X’ and three ‘O’ before the opponent dies. 
+                            <strong>Languages used : </strong>HTML,CSS, Javascript
+                 </p>
+                        <a href="https://github.com/kallurispoorthy/TicTacToe" target="_blank" class="btn btn-primary">Click for Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.hostgator.com/blog/wp-content/uploads/2021/03/How-to-Make-a-Website-Quickly.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">My Website</h5>
+                        <p class="card-text">I have built my own website while learning CSS.</p>
+                        <a href="#" class="btn btn-primary">Click for code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://source.unsplash.com/500x300/?web, project" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Other projects</h5>
+                        <p class="card-text">Will be added soon</p>
+                        <a href="#" class="btn btn-primary">Click for code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock body %}
+
+    

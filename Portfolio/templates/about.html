@@ -1,0 +1,61 @@
+   {% extends "base.html" %}
+   {% load static %}
+   
+   
+   {% block aboutactive %}active{% endblock aboutactive %}
+    {% block title %}About{% endblock title %}
+    {% block body %}
+      <div class="container my-3">
+        <h2 class="text-center my-3 py-3">About me</h2>
+        <div class="row ">
+
+          <div class="col-md-4">
+            <div style="width: 18rem;">
+                <img src="{% static 'img/education.jpg' %}" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title my-3">Education</h5>
+                    <p class="card-text">
+                      <ul>
+                        <li>
+                          <strong>B.Tech: </strong>IIT(ISM)Dhanbad [2020-2024]
+                        </li>
+                        <li>
+                           <strong>Intermediate: </strong>Sri Chaitanya College, Raman Bhavan1, Vijayawada[2018-2020] 
+                        </li>
+                        <li>
+                          <strong>School: </strong>Sri Chaitanya Techno School, Ashoknagar, Vijayawada.[2012-2018]
+                        </li>
+                      </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            <div class="col-md-4">
+                <div style="width: 18rem;">
+                    <img src="{% static 'img/content.jpg' %}" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Content Writer</h5>
+                        <p class="card-text">I enjoy writing stuff that amuses everyone with my creative skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="col-md-4">
+                <div style="width: 18rem;">
+                    <img src="{% static 'img/dev.jpg' %}" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Developer</h5>
+                        <p class="card-text">I like leveraging my technical skills to build real-world projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
+    
